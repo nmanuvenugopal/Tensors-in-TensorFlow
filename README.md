@@ -13,3 +13,12 @@ Tensors in TensorFlow have the following key properties:
 TensorFlow is a popular open-source deep learning framework, and it leverages tensors to represent and perform computations on multi-dimensional data, which is prevalent in machine learning and deep learning tasks. Tensors enable efficient and optimized numerical computations by utilizing hardware acceleration, like GPUs and TPUs.
 
 Tensors are the building blocks of TensorFlow, and you can use them to represent and manipulate data in various machine learning and deep learning models.
+
+We have various type of Tensors available and they are 
+1.  Varibale
+2.  Constant
+3.  Placeholder
+4.  SparseTensor
+
+Except the varibale tensor, none of the other tensors mentioned above mutable, in other words they are immutable that means thier values cannot be changed during the execution.
+
